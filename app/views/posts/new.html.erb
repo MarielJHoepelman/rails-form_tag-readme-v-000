@@ -1,8 +1,7 @@
 <h3>Post Form</h3>
 
-<form>
-  <form action="<%= posts_path %>" method="POST">
-  <label>Post title:ygygg</label><br>
+<form action="<%= posts_path %>" method="POST">
+  <label>Post title:</label><br>
   <input type="text" id="post_title" name="post[title]"><br>
 
   <label>Post description:</label><br>
@@ -10,5 +9,3 @@
 
   <input type="submit" value="Submit Post">
 </form>
-
-<%= params.inspect %>
